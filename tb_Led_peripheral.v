@@ -1,3 +1,5 @@
+//this has some issue like it is taking 6 clock cycle instead of 4
+
 //`include "Led_peripheral.v"
 `include "ROM_for_ledPerpheral.v"
 module tb_led_peripheral();
@@ -31,4 +33,5 @@ initial begin
 
 #300$finish;
 end
+
 endmodule
